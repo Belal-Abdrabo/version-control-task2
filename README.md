@@ -36,5 +36,5 @@ use: git push origin --delete "tag"
 adding image
 `````
 
-![Git Structure](Screenshot(38).png)
+![Lab-2 image](Screenshot(38).png)
 
