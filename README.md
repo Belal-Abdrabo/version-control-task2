@@ -1,29 +1,36 @@
 Lab2:
 ````sh
-Annotated tag: stores metadata ,data, and message.
+
+the deffreant between Annotated and Lightweight
 `````
 `````bash
+Annotated tag: stores metadata ,data, and message.
 Lightweight Tag: it just a name pointing to a commit with no extra data
 
-`````bash
+`````sh
+when to use rebase :
+
+``````bash
+ it useed to keep a clean commit history ,especially before merging a future branch into main. 
 
 
-``````````````
-when to use rebase : it useed to keep a clean commit history ,especially before merging a future branch into main. 
-
-
-`````bash
+`````sh
 to list tags in repository
-use: git tag
 `````bash
+use: git tag
+`````sh
 to delet tags locally:
-
+`````bash
 use: git tag -d "tag"
 
-`````bash
+`````sh
 to delet tags remotely:
+`````bash
 use: git push origin --delete "tag"
 
 
-`````markdown
-![Lab-2 Image](Screenshot(38).png)
+`````sh
+adding image
+`````bash
+![Git Structure](Screenshot(38).png)
+
